@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>Title</title>
+</head>
+<body>
+
+    <form action="http://127.0.0.1:8080" method="post">
+        <label for="i1">用户名:</label>
+        <input type="text" id="i1">
+
+        <label>密码
+            <input type="password">
+        </label>
+
+        <input type="date">
+        <input type="email">
+        <hr>
+        <input type="checkbox" name="hobby" value="basketball">篮球
+        <input type="checkbox" name="hobby" value="football"checked> 足球
+        <label>
+            <input type="checkbox" name="hobby" value="doublecolorball">
+            双色球
+        </label>
+
+        <p><input type="checkbox" name="hobby">篮球</p>
+        <p><input type="checkbox" name="hobby">足球</p>
+        <p><input type="checkbox" name="hobby">双色球</p>
+        <hr>
+        <input type="radio" name="gender" value="man">男
+        <input type="radio" name="gender" value="woman">女
+        <hr>
+        <select name="city" id="">
+            <option value="010">北京市</option>
+            <option value="020">上海市</option>
+            <option value="000" selected>深圳市</option>
+        </select>
+        <select name="city" id="" multiple>
+            <option value="010">北京市</option>
+            <option value="020">上海市</option>
+            <option value="000">深圳市</option>
+        </select>
+        <textarea name="info" id="" cols="60" rows="20"></textarea>
+        <hr>
+        <input type="file" name="avatar">
+        <hr>
+        <input type="button" value="我是一个按钮">
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+    <hr>
+    <form action="http://127.0.0.1:8080" method="post">
+        <input type="text">
+        <input type="submit" name="alex">
+    </form>
+
+</body>
+</html>
