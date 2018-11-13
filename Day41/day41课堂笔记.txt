@@ -1,3 +1,33 @@
+﻿day41课堂笔记
+1.
+
+2.为什么要学HTML
+
+3.前端额内容
+    HTML        CSS                 JS
+    裸体的人    穿上好看的衣服     动起来
+4.HTML
+    FTP UPload|ooxx.avi|1024 -->HTTP协议
+    2.html标签的结构
+        html
+            head -->给浏览器看的
+                title --> 标题
+                style --> CSS样式
+                link  --> CSS文件
+                script--> JS
+                meta
+                    制定文档的编码类型
+                    <meta charset="UTF-8">
+                    2秒后跳转到对应的网址，注意引号
+                    <meta http-equiv="refresh" content="2;URL=http://www.lodboy.edu.cm">
+                    告诉IE以最高级模式渲染文档
+                    <meta http-equiv="x-ua-compatible" content="IE=edge">
+                    搜索引擎爬取的关键字
+                    <meta name="keywords" content="meta总结，html meta,meta属性，meta跳转">
+                    <meta name="description" content="老男孩教育Python学院">
+            body -->给用户看的
+            注释 ctrl + 斜线 注释生成 标准html的结构说明
+            style table生成标准格式
         3.body标签中的常用标签
             1.常用标签
                 1.独占一行的 块级标签
