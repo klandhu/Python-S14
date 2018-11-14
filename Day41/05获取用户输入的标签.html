@@ -7,9 +7,9 @@
 </head>
 <body>
 
-    <form action="http://127.0.0.1:8080" method="post">
+    <form action="http://127.0.0.1:8080" method="post" enctype="multipart/form-data">
         <label for="i1">用户名:</label>
-        <input type="text" id="i1">
+        <input type="text" id="i1" placeholder="请输入用户名" value="alexdsb">
 
         <label>密码
             <input type="password">
@@ -45,6 +45,18 @@
         <textarea name="info" id="" cols="60" rows="20"></textarea>
         <hr>
         <input type="file" name="avatar">
+        <hr>
+        <select name="city">
+            <optgroup label="分组1">
+                <option value="">111</option>
+                <option value="">222</option>
+            </optgroup>
+            <optgroup label="分组2">
+                <option value="">333</option>
+                <option value="">444</option>
+                <option value="">555</option>
+            </optgroup>
+        </select>
         <hr>
         <input type="button" value="我是一个按钮">
         <input type="reset">
