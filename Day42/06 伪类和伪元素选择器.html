@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>Title</title>
+        <style>
+        /*伪类选择器*/
+        /*未访问的链接*/
+        a:link {color: red}
+        /*已访问过的链接*/
+        a:visited {color: green}
+        /*鼠标移动到链接上*/
+        #d1:hover {color: blueviolet}
+        /*选定的链接*/
+        a:active {color: yellow}
+        /*input输入框获取焦点时样式*/
+         input:focus {
+             /*outline: none;*/
+             border: 1px deepskyblue;
+             background: #eee;
+         }
+         /*伪元素*/
+          p:first-letter { color: red}
+          p:before {
+              content: "*";
+              color: red;
+          }
+           p:after {
+               content: "[*]";
+               color:blue;
+           }
+    </style>
+
+</head>
+<body>
+
+    <a href="http://www.abc.com">abc</a>
+    <a href="http://www.luffycity.com">路飞学城</a>
+
+    <span id="d1">span</span>
+    <hr>
+    <input type="text">
+    <hr>
+    <p>想要带你飞，带你去装逼，我其实喜欢打游戏</p>
+    <p>想要带你飞，带你去装逼，我其实喜欢打游戏</p>
+
+    <p>想要带你飞，带你去装逼，我其实喜欢打游戏</p>
+    <p>想要带你飞，带你去装逼，我其实喜欢打游戏</p>
+
+    <p>想要带你飞，带你去装逼，我其实喜欢打游戏</p>
+
+    <p>想要带你飞，带你去装逼，我其实喜欢打游戏</p>
+
+    <p>想要带你飞，带你去装逼，我其实喜欢打游戏</p>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>盒子模型</title>
+    <style>
+        /*开源项目对浏览器的默认样式清空Normalize.css文件*/
+        * {
+            margin: 0;
+        }
+        .c1 {
+            width: 200px;
+            height: 100px;
+            background-color: red;
+            margin: 10px auto;
+        }
+        .c2 {
+            /*上下边框由相邻元素的最大者决定*/
+            margin-top: 25px;
+            /*background-color: green;*/
+            border: 5px solid black;
+            /*padding: 10px;*/
+            /*padding-top: 20px;*/
+            /*padding-bottom: 25px;*/
+            /*padding-left: 30px;*/
+            /*padding-right: 35px;*/
+            /*上下内填充是20px 左右填充是40px*/
+            /*padding: 20px 40px;*/
+            /*上 左右 下*/
+            /*padding: 20px 40px 0;*/
+            /*顺时针 上 右 下 左*/
+            padding: 20px 40px 0 0;
+
+        }
+    </style>
+</head>
+<body>
+
+<div class="c1"></div>
+<div class="c2">111</div>
+</body>
+</html>
