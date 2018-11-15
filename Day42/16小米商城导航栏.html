@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        .c1 {
+            height: 50px;
+            width: 100%;
+            background-color: #4d4d4d;
+        }
+        .c2 {
+            color: #eeeeee;
+            float: left;
+            margin-right: 15px;
+            margin-top: 13px;
+            padding-right: 15px;
+
+        }
+        .c3 {
+            float: right;
+            list-style-type: none;
+        }
+        .c3>li {
+            float: right;
+            margin-left: 15px;
+            height: 50px;
+            padding: 0 15px;
+        }
+        a {
+            text-decoration: none;
+            color: #eeeeee;
+
+        }
+        .c3>li>a {
+             /*让行高等于父标签的高度， 实现单行文本的垂直居中*/
+            line-height: 50px;
+            padding: 15px;
+        }
+        .c3>li:hover {
+            background-color: white;
+            color: #ff4700;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="c1">
+    <div class="c2">玉米商城<span class="sep">|</span><span class="sep">|</span></div>
+    <div class="c2">鞠营营<span class="sep">|</span></div>
+    <div class="c2">康參<span class="sep">|</span></div>
+    <div class="c2">空调<span class="sep">|</span></div>
+    <div class="c2">风扇</div>
+
+    <ul class="c3">
+        <li><a href="">购物车</a></li>
+        <li><a href="">登录</a></li>
+        <li><a href="">注册</a></li>
+    </ul>
+</div>
+
+<div style="background-color: blue" height="100px"></div>
+</body>
+</html>
