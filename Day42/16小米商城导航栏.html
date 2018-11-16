@@ -12,7 +12,7 @@
             padding: 0;
         }
         .c1 {
-            height: 50px;
+            /*height: 50px;*/
             width: 100%;
             background-color: #4d4d4d;
         }
@@ -44,16 +44,26 @@
             line-height: 50px;
             padding: 15px;
         }
-        .c3>li:hover {
+        .c3>li>a:hover {
             background-color: white;
             color: #ff4700;
+        }
+        .c1:after {
+            content: "";
+            clear: both;
+            display: block
+        }
+        .clearfix {
+            content: "";
+            clear: both;
+            display: block
         }
     </style>
 </head>
 <body>
 
 
-<div class="c1">
+<div class="c1 clearfix">
     <div class="c2">玉米商城<span class="sep">|</span><span class="sep">|</span></div>
     <div class="c2">鞠营营<span class="sep">|</span></div>
     <div class="c2">康參<span class="sep">|</span></div>
@@ -67,6 +77,9 @@
     </ul>
 </div>
 
-<div style="background-color: blue" height="100px"></div>
+<div  style="background-color: blue;height: 100px"></div>
+<div class="c5 clearfix">
+
+</div>
 </body>
 </html>
